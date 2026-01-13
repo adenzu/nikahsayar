@@ -84,3 +84,24 @@ body {
     width: 120%;
     height: auto;
 }
+
+.left-drawing {
+    position: fixed;
+    left: 0;
+    top: 51%;
+    transform: translateY(-50%);
+    max-width: 500px;
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+.right-drawing {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 1200px;
+    opacity: 0.9;
+    pointer-events: none;
+}
+
